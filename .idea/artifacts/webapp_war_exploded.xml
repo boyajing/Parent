@@ -11,6 +11,9 @@
           <element id="archive" name="web-servlet-1.0-SNAPSHOT.jar">
             <element id="module-output" name="webservlet" />
           </element>
+          <element id="archive" name="web-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="webdao" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">
