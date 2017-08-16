@@ -8,8 +8,18 @@
     <servlet-name>servlet</servlet-name>
     <servlet-class>com.nantian.servlet.SimpleServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>demoServlet</servlet-name>
+    <servlet-class>com.nantian.servlet.DemoServlet</servlet-class>
+  </servlet>
+
   <servlet-mapping>
     <servlet-name>servlet</servlet-name>
     <url-pattern>/servlet</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>demoServlet</servlet-name>
+    <url-pattern>/demoServlet</url-pattern>
+  </servlet-mapping>
+
 </web-app>
